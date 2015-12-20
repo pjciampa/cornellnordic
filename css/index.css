@@ -1,0 +1,364 @@
+p{
+	max-width: 100%;
+}
+
+
+html{
+	height:100%;
+	width:100%;
+}
+
+form{
+
+	display: inline;
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	height:100%;
+	width: 100%;
+	margin:0px 0px;
+	color:#000;
+}
+
+section {
+	display: block;
+	position: relative;
+	margin:3% 8%;
+	padding: 0;
+	clear:both;
+	margin-bottom:50px;
+	overflow: hidden;
+}
+
+section#header{
+	text-align: center;
+	height:550px;
+	background-image:url('../images/home-bg.jpg');
+	background-size:cover;
+	margin:0 0;
+	line-height: 350px;
+}
+
+section#header h1{
+	float:left;
+	color:white;
+	font-size:6vw;
+	margin-bottom:0px;
+	margin-left:30px;
+	overflow: hidden;
+	text-shadow: 0 0 4px black, 0 0 4px black;
+}
+
+section#footer{
+	clear:both;
+	bottom:0;
+	height:140px;
+	width:100%;
+	background-color:#751317;
+	color:#fff;
+	margin:0px 0px;
+	padding-top:20px;
+	display:block;
+}
+
+section#footer p{
+	text-align:center;
+	font-size:14px;
+	margin:3px 3px;
+}
+
+section#footer img:first-child{
+	padding-left:30px;
+}
+
+h1{
+	color:white;
+	text-shadow:0 0 4px black, 0 0 4px black;
+}
+
+h2{
+	color:#911e22;
+}
+
+h3, h4{
+	color:#ae4246;
+}
+
+h5{
+	font-size:6px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	text-align: left;
+}
+
+#navbar a{
+	color:#fff;
+}
+
+a:hover{
+	color:#ae4246;
+}
+
+a{
+	color:#751317;
+}
+
+a,a:link,a:visited{
+	text-decoration: none;
+}
+
+
+h6{
+	text-align: center;
+}
+
+section#credit{
+	margin-top: 0;
+	margin-bottom:0;
+}
+
+section#credit h6{
+	margin-bottom:0;
+}
+
+section.credit{
+	margin-top: 0;
+	margin-bottom:0;
+}
+
+section.credit h6{
+	margin-bottom:0;
+}
+
+#left-logo{
+	margin-top: auto;
+	margin-bottom: auto;
+	position: relative;
+	left:30px;
+	margin-right:15px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+#reminder{
+	font-size:12px;
+}
+
+.left-blurb{
+	display: inline-block;
+	min-width: 350px;
+	max-width: 100%;
+	width:40%;
+	float:left;
+	padding-right:3%;
+	position:relative;
+
+}
+
+.right-blurb{
+	width:500px;
+	display:inline-block;
+	float:left;
+	clear:right;
+}
+
+.right-blurb img{
+	width:200px;
+	height:150px;
+	padding:20px 15px;
+}
+
+#single-photo img{
+	width:390px;
+	height:250px;
+	padding:10px 30px;
+}
+
+@media(min-width:1065px){
+	#long-left img{
+		padding-top:80px;
+	}
+}
+
+table{
+	font-size:15px;
+	margin:auto auto;
+	border-spacing:10px;
+	text-align: center;
+}
+
+td h2,h4,p{
+	margin:3px;
+	top:0;
+}
+
+.center{
+	text-align: center;
+}
+
+section#vendors div, i,a{
+	display: inline-block;
+}
+
+@media(max-width:490px){
+	div{
+		max-width: 100%;
+	}
+	img, iframe{
+		max-width: 90%;
+	}
+}
+
+#feedback h6{
+	margin: 0 0;
+	padding: 0 0;
+}
+
+@media(max-width:465px){
+	ul.nav-links li a, #left-logo{
+		font-size:3.1vw;
+		padding:5%;
+	}
+	ul.nav-links li{
+		margin-right:10px;
+	}
+	#left-logo{
+		left:6%;
+	}
+	ul.nav-links li, #left-logo{
+		margin: 0 0;
+		padding:1%;
+	}
+} 
+
+section#events h2, h4{
+	text-align: center;
+}
+
+form div{
+	margin: 2% 2%;
+}
+
+/*Roster Stylings*/
+#roster-header{
+	text-align: center;
+	height:550px;
+	background-image:url('../images/roster-bg.jpg');
+	background-size:cover;
+	margin:0 0;
+	line-height: 350px;
+
+}
+
+section#roster-header h1{
+	float:left;
+	color:white;
+	font-size:6vw;
+	margin-bottom:0px;
+	margin-left:30px;
+	overflow: hidden;
+	text-shadow: 0 0 4px black, 0 0 4px black;
+}
+
+table#officerTable td{
+	text-align: left;
+	padding:3% 2%;
+	max-width: 90%;
+	width:280px;
+}
+
+table#officerTable{
+	margin-left:6%;
+}
+
+table.roster-table{
+	height: auto;
+    width:90%;
+    margin: 0 auto;
+    color: #000;
+    text-align: left;
+} 
+.roster-table td{
+	padding: 4px;
+	margin: 3px;
+}
+.roster-table th{
+	text-align: center;
+	background-color: #b31b1b; 
+	color: #FFF;
+	font-weight: bold;
+}
+
+#container{
+	margin: 2% 5% 2% 5%;
+	display: inline-block;
+}
+
+#centercontainer{
+	margin: auto;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+#footer {
+	text-align: center;
+	font-weight: bold;
+	background-color: rgb(139, 27, 27);
+	color: white;
+	position:relative;
+	bottom:-20px;
+	z-index: -2;
+}
+#footer a{
+	text-decoration: none;
+	color: white;
+	text-decoration: underline;
+}
+
+/* Schedule Header Style*/
+
+#schedule-header{
+	text-align: center;
+	height:550px;
+	background-image:url('../images/schedule-bg.jpg');
+	background-size:cover;
+	margin:0 0;
+	line-height: 350px;
+
+}
+
+section#schedule-header h1{
+	float:left;
+	color:white;
+	font-size:6vw;
+	margin-bottom:0px;
+	margin-left:30px;
+	overflow: hidden;
+	text-shadow: 0 0 4px black, 0 0 4px black;
+}
+
+
+/*About Header Style*/
+
+#about-header{
+	text-align: center;
+	height:550px;
+	background-image:url('../images/about-bg.jpg');
+	background-size:cover;
+	margin:0 0;
+	line-height: 350px;
+
+}
+
+section#about-header h1{
+	float:left;
+	color:white;
+	font-size:6vw;
+	margin-bottom:0px;
+	margin-left:30px;
+	overflow: hidden;
+	text-shadow: 0 0 4px black, 0 0 4px black;
+}

@@ -1,0 +1,27 @@
+#history-header{
+	text-align: center;
+	height:550px;
+	background-image:url('../images/historybanner.jpg');
+	background-size:cover;
+	margin:0 0;
+	line-height: 350px;
+}
+
+section#history-header h1{
+	float:left;
+	color:white;
+	font-size:6vw;
+	margin-bottom:0px;
+	margin-left:30px;
+	overflow: hidden;
+	text-shadow: 0 0 4px black, 0 0 4px black;
+}
+
+img {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: 40%;
+	height: 40%;
+	margin: 0 auto;
+	display: block;
+}

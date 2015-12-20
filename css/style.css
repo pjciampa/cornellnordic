@@ -1,0 +1,23 @@
+/* outreach Style */
+div#outreach{
+    position: absolute;
+    background-color: #b31b1b;
+    height: 30px;
+    min-width: 30px;
+    display: block;
+    list-style: none;
+    float: none;
+    position: absolute;
+    right: 0px;
+}
+/* navbar Style */
+#navbar {
+    width: 100px;
+    height: 115px;
+    background: url("/images/header_logo.png") repeat scroll 0% 0% transparent;
+    position: absolute;
+    top: -5px;
+    left: 32px;
+}
+
+

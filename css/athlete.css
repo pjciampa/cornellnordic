@@ -1,0 +1,108 @@
+section.vspace{
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+section.athleteinfo{
+    background-color: #b31b1b;
+    height: 230px;
+    width: 750px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+section.bioheader{
+    background-color: gray;
+    height: auto;
+    width: 95%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 50px;
+}
+
+section.bioheader p{
+    line-height: 30px;
+    font-size: 20px;
+    background-color: rgb(51, 51, 51);
+    height: 100%;
+    width: 31px;
+    padding: 10px;
+    margin: 0;
+    border: 0;
+    color: white;
+    font-weight: bold;
+}
+
+section#pic{
+    display:inline-block;
+    width: 210px;
+    float: left;
+    line-height: 100px;
+    margin: 30px 2px 0px 30px;
+    padding-top: 70px;
+}
+
+img{
+    width: 165px;
+    border:2px solid maroon;
+    border-radius: 50%;
+    transform:translateY(-40%);
+}
+
+section#info{
+    display: inline-block;
+    width: 60%;
+    margin: auto;
+    transform:translateY(25%);
+}
+
+table{
+    font-size:15px;
+    margin: 0 0 0 0;
+    border-spacing:10px;
+    text-align: center;
+    width: 100%;
+}
+
+table.roster-info{
+    text-align: left;
+}
+
+tr{
+    width: 100%;
+}
+
+tr.roster-info-firstrow{
+    font-weight: normal;
+}
+
+@media screen and (max-width: 620px){
+    section#pic{
+        display:block;
+        width:inherit;
+        margin:auto;
+    }
+    section#pic img{
+        display: block;
+        margin:auto;
+        clear:both;
+        overflow: hidden;
+    }
+
+    section#info{
+        width:200px;
+        display: block;
+        position:relative;
+        top:-60px;
+        margin:auto;
+    }
+
+    section.athleteinfo{
+        padding-top:20px;
+        height:400px;
+        width:100%;
+    }
+
+}

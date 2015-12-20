@@ -1,0 +1,27 @@
+section.vspace{
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1{
+    margin: 0 auto;
+    text-align: center;
+}
+
+section.athleteinfo{
+    background-color: #b31b1b;
+    height: 230px;
+    width: 750px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 165px;
+    border:2px solid maroon;
+    border-radius: 50%;
+}
